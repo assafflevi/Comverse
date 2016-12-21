@@ -1,0 +1,192 @@
+#stories {
+    width: 100%;
+    background-color: rgba(150, 150, 150, 0.3);
+}
+
+#stories>.content-width {
+    width: 920px;
+}
+
+#stories h2 {
+    color: #565656;
+}
+
+.component {
+    display: inline-block;
+    vertical-align: middle;
+    height: 300px;
+    margin: 0px 1px;
+    width: 337px;
+}
+
+.blockquote {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.component:nth-child(even)>.blockquote {
+    margin-bottom: 5px;
+}
+
+.component:nth-child(odd)>.additional-clients {
+    margin-bottom: 5px;
+}
+
+#content {
+    background: white;
+    height: 200px;
+    width: 336px;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    border-radius: 2px;
+    z-index: 1;
+    transition: transform 500ms ease-out;
+}
+
+.component:nth-child(4) {
+    width: 226px;
+}
+
+.component:nth-child(4)>.blockquote>#content {
+    width: 222px;
+}
+
+.component:nth-child(4)>.blockquote>#window {
+    width: 222px;
+}
+
+.quote {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.quote>img {
+    float: left;
+    margin-right: 20px;
+}
+
+.quote>blockquote {
+    line-height: 27px;
+    max-width: 310px;
+    font-size: 90%
+}
+
+.component:nth-child(4)>.blockquote>.quote>blockquote {
+    max-width: 150px;
+}
+
+.quotee {
+    position: relative;
+    padding: 10px;
+    font-size: 80%;
+}
+
+.quotee>cite {
+    display: block;
+    color: #47acdd;
+}
+
+.quotee>p {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.quotee>img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.quote>blockquote::before {
+    content: url(/comverse/images/icons/quote.png);
+    margin-right: 20px;
+}
+
+.quote>blockquote::after {
+    content: url(/comverse/images/icons/quote.png);
+    margin-left: 20px;
+}
+
+.additional-clients {
+    height: 97px;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.image-container:nth-child(even) {
+    margin: 0px 2px;
+}
+
+.b-side {
+    z-index: 0;
+    border-radius: 2px;
+}
+
+.a-side {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: transform 500ms ease-out;
+    border-radius: 2px;
+    width: 109px;
+    height: 97px;
+}
+
+.image-container:hover .a-side{
+    transform: translate(0px, -150px);
+}
+
+#to-top {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#to-top>img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#window {
+    height: 200px;
+    width: 336px;
+    border-radius: 2px;
+    background-color: #3d9ac0;
+    z-index: 0;
+}
+
+#window blockquote {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    line-height: 30px;
+}
+
+#window blockquote::before {
+    content: url(/comverse/images/icons/quote.png);
+    margin-right: 19px;
+}
+
+#window blockquote::after {
+    content: url(/comverse/images/icons/quote.png);
+    margin-left: 19px;
+}
+
+.blockquote:hover #content {
+    transform: translate(0px, -200px);
+}

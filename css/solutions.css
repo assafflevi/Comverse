@@ -1,0 +1,21 @@
+#solutions  {
+    background: #646263;
+    padding-bottom: 40px;
+}
+
+.solutions-list {
+    position: relative;
+    width: 890px;
+    margin: 0 auto;
+    display: block;
+}
+
+.solutions-list li {
+    display: inline;
+    margin: 0px 52px;
+}
+
+.solutions-list a {
+    color: white;
+    font-size: 2em;
+}

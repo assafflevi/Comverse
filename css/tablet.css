@@ -1,0 +1,819 @@
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .solutions-list li {
+        margin: 0px 25px;
+        font-size: 70%;
+        margin: 0px 30px;
+        font-size: 60%;
+    }
+
+    .solutions-list {
+        width: 530px;
+    }
+
+    .service-item {
+        margin: 20px 5px;
+    }
+
+    #services ul {
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        font-size: 90%;
+        width: 490px;
+    }
+
+
+    #services ul li img {
+        width: 50%;
+    }
+
+    .service-item a {
+        position: relative;
+        display: block;
+        width: 150px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .content-width {
+        width: 100%;
+    }
+
+    #stories>.content-width {
+        width: 345px;
+    }
+
+    .component {
+        display: block;
+        margin: 6px auto;
+    }
+
+    .component:nth-child(4) {
+        display: none;
+    }
+
+    #to-top {
+        right: 0;
+    }
+
+    #news legend {
+        font-size: 1.5em;
+    }
+
+    #news section {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    footer section {
+        display: none;
+    }
+
+    footer aside {
+        width: 120px;
+    }
+
+    footer aside h4, footer aside time, footer aside input, footer aside p {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #language, .top-functions a {
+        display: none;
+    }
+
+    .top-functions {
+        position: absolute;
+        display: none;
+        width: 100%;
+        background-color: white;
+        z-index: 11;
+        padding-bottom: 6px;
+    }
+
+    #mobile-search:checked + .top-functions {
+        display: block;
+    }
+
+    .search {
+        position: relative;
+        width: 95%;
+        margin: 9px auto;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        z-index: 10;
+        height: 0px;
+        overflow: hidden;
+        background: transparent;
+        transition: height 1s ease-in-out;
+    }
+
+    #mobile-menu:checked + .menu {
+        height: 1100px;
+    }
+
+    #your-needs:checked + .sub-menu {
+        display: block;
+    }
+
+    #our-portfolio:checked + .sub-menu {
+        display: block;
+    }
+
+    #news-media:checked + .sub-menu {
+        display: block;
+    }
+
+    #about-comverse:checked + .sub-menu {
+        display: block;
+    }
+
+    .menu>li {
+        font-size: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid lightgrey;
+    }
+
+    .menu label {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 36px;
+        cursor: pointer;
+    }
+
+    .sub-menu ul li, .sub-menu dt, .sub-menu dd {
+        display: block;
+        width: 100%;
+        height: 36px;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid lightgrey;
+    }
+
+    .sub-menu dt a, .sub-menu dd a, .sub-menu li a {
+        width: 100%;
+        display: block;
+        font-size: 100%;
+        padding: 10px 45px;
+    }
+
+    .menu>li>a {
+        background-color: white;
+        width: 100%;
+        display: block;
+        border: 0;
+        padding: 10px 45px;
+    }
+
+    .menu>li::before {
+        content: "";
+        background: url(/comverse/images/icons/navCollapseArrowRight.png) no-repeat;
+        width: 5px;
+        height: 8px;
+        left: 20px;
+        top: 13px;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .menu>li:hover>a {
+        box-shadow: none;
+        border: 0px;
+    }
+
+    .sub-menu, .menu>li:hover .sub-menu {
+        width: 100%;
+        display: none;
+        box-shadow: none;
+        border: 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub-menu ul, .sub-menu dl {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column1, .column2 {
+        width: 100%;
+        position: relative;
+        vertical-align: top;
+        margin: 0;
+    }
+
+    .sub-menu aside {
+        display: none;
+    }
+
+    #slideshow {
+        height: 987px;
+        margin-top: 45px;
+    }
+
+    #slider {
+        margin-top: 0px;
+        position: relative;
+        display: block;
+        height: 400px;
+        padding-bottom: 20px;
+        transition: left 1s ease-in-out;
+    }
+
+    .slide {
+        left: 20px;
+        width: 21px;
+    	height: 21px;
+    }
+
+    #slideshow>.content-width {
+        width: 100%;
+    }
+
+    #slideshow-boxes {
+        top: 445px;
+        left: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #box1, #box2, #box3 {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 0;
+        margin: 5px 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    #box1:after, #box2:after, #box3:after {
+        content: url(/comverse/images/icons/arrow.png);
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    #box1 p:first-child, #box2 p:first-child, #box3 p:first-child {
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    #box1 img, #box2 img, #box3 img {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .animation1, .animation2, .animation3, .animation4 {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    .animation1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/customer-experience.jpg) no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        background-attachment: scroll;
+        left: 0%;
+    }
+
+    .animation2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/digital-services.jpg) no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        background-attachment: scroll;
+        left: 100%;
+    }
+
+    .animation3 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/evolve-to-ip4g.jpg) no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        background-attachment: scroll;
+        left: 200%;
+    }
+
+    .animation4 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/smartly-monetize.jpg) no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        background-attachment: scroll;
+        left: 300%;
+    }
+
+    .heading {
+        position: relative;
+        padding: 0;
+        height: 280px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .heading>h1 {
+        font-size: 1.5em;
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .heading>ul {
+        font-size: 80%;
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .heading>ul>li {
+        padding: 5px 0px;
+    }
+
+    .heading a {
+        position: absolute;
+        bottom: 35px;
+        width: 120px;
+        padding-left: 11px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+        left: 20px;
+    }
+
+    .heading a img {
+        top: 9px;
+    }
+
+    #logo {
+        background-image: url(/comverse/images/logo/comverse-logo-medium.png);
+        height: 36px;
+        width: 109px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        float: none;
+    }
+
+    label[for="mobile-menu"] {
+        position: absolute;
+        background: url(/comverse/images/icons/hamburger.png) no-repeat;
+        width: 22px;
+        height: 18px;
+        bottom: 20px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    label[for="mobile-search"] {
+        position: absolute;
+        background: url(/comverse/images/icons/searchBtnMobile.png) no-repeat;
+        width: 21px;
+        height: 22px;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .button>a {
+        line-height: 30px;
+    }
+
+    .button>a>img {
+        top: 9px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 930px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .solutions-list {
+        width: 530px;
+    }
+
+    .solutions-list li {
+        margin: 0px 30px;
+        font-size: 60%;
+    }
+
+    .service-item {
+        margin: 20px 20px;
+    }
+
+    #services ul {
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        font-size: 90%;
+        width: 590px;
+    }
+
+    #services ul li img {
+        width: 60%;
+    }
+
+    .service-item a {
+        position: relative;
+        display: block;
+        width: 150px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .content-width {
+        width: 100%;
+    }
+
+    #stories>.content-width {
+        width: 336px;
+    }
+
+    .component {
+        display: block;
+        margin: 6px auto;
+    }
+
+    .component:nth-child(4) {
+        display: none;
+    }
+
+    #to-top {
+        right: 0;
+    }
+
+    #news legend {
+        font-size: 1.5em;
+    }
+
+    #news section {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    footer section {
+        display: none;
+    }
+
+    footer aside {
+        width: 120px;
+    }
+
+    footer aside h4, footer aside time, footer aside input, footer aside p {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #language, .top-functions a {
+        display: none;
+    }
+
+    .top-functions {
+        position: absolute;
+        display: none;
+        width: 100%;
+        background-color: white;
+        z-index: 11;
+        padding-bottom: 6px;
+    }
+
+    #mobile-search:checked + .top-functions {
+        display: block;
+    }
+
+    .search {
+        position: relative;
+        width: 95%;
+        margin: 9px auto;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        z-index: 10;
+        height: 0px;
+        overflow: hidden;
+        background: transparent;
+        transition: height 1s ease-in-out;
+    }
+
+    #mobile-menu:checked + .menu {
+        height: 1100px;
+    }
+
+    #your-needs:checked + .sub-menu {
+        display: block;
+    }
+
+    #our-portfolio:checked + .sub-menu {
+        display: block;
+    }
+
+    #news-media:checked + .sub-menu {
+        display: block;
+    }
+
+    #about-comverse:checked + .sub-menu {
+        display: block;
+    }
+
+    .menu>li {
+        font-size: 100%;
+        width: 100%;
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid lightgrey;
+    }
+
+    .menu label {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 36px;
+        cursor: pointer;
+    }
+
+    .sub-menu ul li, .sub-menu dt, .sub-menu dd {
+        display: block;
+        width: 100%;
+        height: 36px;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid lightgrey;
+    }
+
+    .sub-menu dt a, .sub-menu dd a, .sub-menu li a {
+        width: 100%;
+        display: block;
+        font-size: 100%;
+        padding: 10px 45px;
+    }
+
+    .menu>li>a {
+        background-color: white;
+        width: 100%;
+        display: block;
+        border: 0;
+        padding: 10px 45px;
+    }
+
+    .menu>li::before {
+        content: "";
+        background: url(/comverse/images/icons/navCollapseArrowRight.png) no-repeat;
+        width: 5px;
+        height: 8px;
+        left: 20px;
+        top: 13px;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .menu>li:hover>a {
+        box-shadow: none;
+        border: 0px;
+    }
+
+    .sub-menu, .menu>li:hover .sub-menu {
+        width: 100%;
+        display: none;
+        box-shadow: none;
+        border: 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub-menu ul, .sub-menu dl {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .column1, .column2 {
+        width: 100%;
+        position: relative;
+        vertical-align: top;
+        margin: 0;
+    }
+
+    .sub-menu aside {
+        display: none;
+    }
+
+    #slideshow {
+        height: 1102px;
+    }
+
+    .slider-nav {
+        display: none;
+    }
+
+    #slideshow>.content-width {
+        width: 100%;
+    }
+
+    #slideshow-boxes {
+        top: 560px;
+        left: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #box1, #box2, #box3 {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 0;
+        margin: 5px 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    #box1:after, #box2:after, #box3:after {
+        content: url(/comverse/images/icons/arrow.png);
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    #box1 p:first-child, #box2 p:first-child, #box3 p:first-child {
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    #box1 p:nth-child(3), #box2 p:nth-child(3), #box3 p:nth-child(3) {
+        margin-left: 57px;
+    }
+
+    #box1 img, #box2 img, #box3 img {
+        position: absolute;
+        bottom: 10px;
+        left: 7px;
+    }
+
+    .animation1, .animation2, .animation3, .animation4 {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        height: 280px;
+        left: 0%;
+    }
+
+    .animation1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/customer-experience.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .animation2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/digital-services.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: 300% 100%;
+    }
+
+    .animation3 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/evolve-to-ip4g.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .animation4 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/smartly-monetize.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .heading {
+        position: relative;
+        padding: 10px 20px;
+        height: 280px;
+        width: 100%;
+    }
+
+    .heading>h1 {
+        font-size: 1.5em;
+    }
+
+    .heading>ul {
+        font-size: 80%;
+        width: 90%;
+    }
+
+    .heading a {
+        position: absolute;
+        bottom: 35px;
+        width: 120px;
+        padding-left: 11px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .heading a img {
+        top: 9px;
+    }
+
+    #logo {
+        background-image: url(/comverse/images/logo/comverse-logo-medium.png);
+        height: 36px;
+        width: 109px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        float: none;
+    }
+
+    label[for="mobile-menu"] {
+        position: absolute;
+        background: url(/comverse/images/icons/hamburger.png) no-repeat;
+        width: 22px;
+        height: 18px;
+        bottom: 20px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    label[for="mobile-search"] {
+        position: absolute;
+        background: url(/comverse/images/icons/searchBtnMobile.png) no-repeat;
+        width: 21px;
+        height: 22px;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .button>a {
+        line-height: 30px;
+    }
+
+    .button>a>img {
+        top: 9px;
+    }
+}

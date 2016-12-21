@@ -1,0 +1,39 @@
+#services {
+    width: 100%;
+    background: url(/comverse/images/backgrounds/services-bg.png) repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
+}
+
+#services ul {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#services ul li {
+    position: relative;
+    display: inline;
+}
+
+.service-hover {
+    display: none;
+}
+
+.service-item:hover .service-hover {
+    display: inline-block;
+}
+
+.service-item:hover .service {
+    display: none;
+}
+
+.service-item  {
+    text-align: center;
+    display: inline-block;
+    margin: 0px 7px;
+}
+
+.service-item p {
+    color: white;
+    width: auto;
+    font-weight: bold;
+}

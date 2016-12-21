@@ -1,0 +1,184 @@
+@media only screen and (min-width: 930px) and (max-width: 1055px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .solutions-list li {
+        margin: 0px 52px;
+        font-size: 80%;
+    }
+
+    .solutions-list {
+        width: 800px;
+    }
+
+    #news legend {
+        font-size: 1.5em;
+    }
+
+    #news section {
+        width: 270px;
+    }
+
+    .events1 {
+        margin: 0px 10px;
+    }
+
+    footer section {
+        display: none;
+    }
+
+    footer aside {
+        width: 120px;
+    }
+
+    footer aside h3, footer aside time, footer aside input, footer aside p {
+        display: none;
+    }
+
+    #services ul li img {
+        width: 40%;
+    }
+
+    #services ul {
+        font-size: 90%;
+    }
+
+    nav {
+        margin-right: 35px;
+        margin-left: 35px;
+        font-size: 90%;
+    }
+
+    #slideshow {
+        height: 1102px;
+    }
+
+    .slider-nav {
+        display: none;
+    }
+
+    #slideshow>.content-width {
+        width: 100%;
+    }
+
+    #slideshow-boxes {
+        top: 560px;
+        left: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #box1, #box2, #box3 {
+        width: 100%;
+        position: relative;
+        display: block;
+        padding: 0;
+        margin: 5px 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    #box1:after, #box2:after, #box3:after {
+        content: url(/comverse/images/icons/arrow.png);
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    #box1 p:first-child, #box2 p:first-child, #box3 p:first-child {
+        margin: 0;
+        padding: 10px 10px;
+    }
+
+    #box1 img, #box2 img, #box3 img {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .animation1, .animation2, .animation3, .animation4 {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        float: left;
+        width: 50%;
+        height: 280px;
+        left: 0%;
+    }
+
+    .animation1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/customer-experience.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .animation2 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/digital-services.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: 300%;
+    }
+
+    .animation3 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/evolve-to-ip4g.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .animation4 {
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/comverse/images/slider/smartly-monetize.jpg) no-repeat;
+        background-position: 50%;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .heading {
+        position: relative;
+        padding: 10px 10px;
+        height: 280px;
+        width: 100%;
+    }
+
+    .heading>h1 {
+        font-size: 1.5em;
+    }
+
+    .heading>ul {
+        font-size: 80%;
+    }
+
+    .heading a {
+        position: absolute;
+        bottom: 35px;
+        width: 120px;
+        padding-left: 11px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .heading a img {
+        top: 9px;
+    }
+
+    #logo {
+        background-image: url(/comverse/images/logo/comverse-logo-medium.png);
+        height: 36px;
+        width: 109px;
+        margin-top: 39px;
+    }
+
+    .content-width {
+        width: 880px;
+    }
+
+    .button>a {
+        line-height: 30px;
+    }
+
+    .button>a>img {
+        top: 9px;
+    }
+}

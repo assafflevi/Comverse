@@ -1,0 +1,186 @@
+footer {
+    background: url(/comverse/images/backgrounds/footer-bg.png) repeat scroll center 0, radial-gradient(ellipse at center, #ffffff 0%, transparent 100%);
+    width: 100%;
+    position: relative;
+}
+
+footer section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+footer legend {
+    padding: 10px;
+    color: white;
+}
+
+footer ul {
+    padding: 10px;
+}
+
+footer ul li {
+    font-size: 80%;
+    margin: 5px 0px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer aside h3 {
+    text-align: center;
+    padding: 20px 0px;
+    color: #4ea7d3;
+}
+
+footer aside h3:nth-of-type(2) {
+    text-align: center;
+    border-top: 1px solid grey;
+    margin-top: 20px;
+}
+
+footer aside p {
+    width: 150px;
+    margin-left: 80px;
+    text-align: left;
+    line-height: 25px;
+    color: white;
+}
+
+footer aside time {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    text-indent: -5px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+footer aside time::first-line {
+    font-size: 2em;
+}
+
+footer aside input:nth-of-type(1) {
+    width: 220px;
+    border-radius: 2px;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-bottom: 35px;
+}
+
+footer aside input:nth-of-type(2) {
+    color: white;
+    font-size: 80%;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #4c4c4c 0%,#449fc0 0%,#318aac 100%);
+    border-radius: 2px;
+    box-shadow: 0px 5px 3px 0px #3d9ac0 inset;
+    margin: 0;
+    height: 27px;
+    position: absolute;
+    right: 5px;
+}
+
+.social {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.social ul {
+    padding: 0;
+    margin: 0;
+}
+
+.social ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.social a {
+    margin: 0px 5px;
+}
+
+#youtube {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(/comverse/images/social/socialMenuIcon-youtube.png);
+}
+
+#youtube:hover {
+    background-image: url(/comverse/images/social/socialMenuIcon-youtube_hover.png);
+}
+
+#twitter {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(/comverse/images/social/socialMenuIcon-twitter.png);
+}
+
+#twitter:hover {
+    background-image: url(/comverse/images/social/socialMenuIcon-twitter_hover.png);
+}
+
+#linkedin {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(/comverse/images/social/socialMenuIcon-linkedin.png);
+}
+
+#linkedin:hover {
+    background-image: url(/comverse/images/social/socialMenuIcon-linkedin_hover.png);
+}
+
+.links {
+    display: block;
+    padding: 10px 10px;
+}
+
+.links a {
+    display: inline-block;
+    font-size: 80%;
+    vertical-align: middle;
+    color: white;
+}
+
+.links a:not(:last-child) {
+    padding-right: 10px;
+    margin-right: 5px;
+    border-right: 1px solid white;
+}
+
+.links p {
+    font-size: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding-right: 10px;
+    margin-right: 5px;
+    border-right: 1px solid white;
+}
+
+.footer-mobile {
+    display: none;
+}

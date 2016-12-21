@@ -1,0 +1,80 @@
+#news {
+  width: 100%;
+  background: url(/comverse/images/backgrounds/news.jpg) no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.news, .events1, .events2 {
+    display: inline-block;
+    width: 280px;
+    line-height: 40px;
+    padding: 20px 0px;
+}
+
+.events1 {
+    margin: 0px 45px;
+}
+
+#news legend {
+    color: white;
+    font-weight: lighter;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+.news-box {
+    height: 119px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+}
+
+.news-box:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.news-box>p {
+    margin-top: 14px;
+    margin-left: 92px;
+    font-size: 90%;
+    display: inline-block;
+    line-height: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.time {
+    position: absolute;
+    width: 69px;
+    height: 89px;
+    background-color: #3399cc;
+    color: white;
+    margin: 10px 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    line-height: 50px;
+    border-radius: 2px;
+ }
+
+.time h3 {
+    line-height: 50px;
+    padding: 5px;
+    font-size: 3em;
+    font-weight: lighter;
+    border-bottom: 1px dotted white;
+}
+
+.time p {
+    line-height: 30px;
+}
+
+.news img, .events1 img, .events2 img {
+    margin-right: 10px;
+    vertical-align: text-bottom;;
+}
+
+.news a, .events1 a, .events2 a {
+    color: white;
+    font-size: 90%;
+}
